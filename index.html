@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<link rel="stylesheet" href="css/normalize.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>СЭК</title>
+	<link rel="icon" href="img/icon/favicon-16x16.png">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap&subset=cyrillic"
+		rel="stylesheet">
+	<link rel="stylesheet" href="../Главная/slick/slick.css">
+	<link rel="stylesheet" href="../Главная/slick/slick-theme.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="slick/slick.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+	<header>
+		<div class="menu-top">
+			<ul class="menu-top_list">
+				<li><a href="#"  class="menu-top_list-btn">Деятельность 
+					<span></span>
+				</a>
+					<ul class="submenu">
+						<li><a href="../Automation_systems/automation_systems.html"> Системы автоматизации и учета энергоресурсов</a></li>
+						<li><a href="../energy_facilities/energy_facilities.html"> Строительство и реконструкция объектов энергетического комплекса</a></li>
+						<li><a href="../supply/supply.html"> Поставка оборудования для объектов энергетического комплекса</a></li>
+						<li><a href="../equipment_manufacturing/equipment_manufacturing.html">Производство оборудования</a></li>
+					</ul>
+				</li>
+				<li><a href="../project/project.html">Проекты</a></li>
+         <!-- <li><a href="../">Партнеры</a></li> -->
+				<li><a href="../customers/customers.html">Заказчики</a></li>
+				<li><a href="../kontakty/kontakty.html">Контакты</a></li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Поиск">
+				<img src="img/icon/icons8.png" class="form-control_ico">
+			</form>
+		</div>
+		<div class="menu">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="logo">
+						<a href="index.html" class="logo__a">
+							<img src="img/icon/logo.png" alt="logo">
+						</a>
+					</div>
+					<ul class="menu__list">
+						<li><a href="../o_kompanii/o_kompanii.html">компания</a></li>
+						<li><a href="../project/project.html">проекты</a></li>
+						<li><a href="../customers/customers.html">заказчики</a></li>
+						<li><a href="../kontakty/kontakty.html">контакты</a></li>
+					</ul>
+					<div class="menu_burger">
+						<a href="" class="menu_burger__a">
+							<div class="menu_burger__a-span"><span></span></div>
+							<p class="menu_burger-title">Меню</p>
+						</a>
+						<nav class="menu_burger__nav">
+							<a href="" class="menu_burger__nav-link">Ресурсы</a>
+							<a href="" class="menu_burger__nav-link">Деятельность</a>
+							<a href="" class="menu_burger__nav-link">Проекты</a>
+							<a href="" class="menu_burger__nav-link">Клиенты</a>
+							<a href="" class="menu_burger__nav-link">Лицензии</a>
+						</nav>
+					</div>
+					<div class="menu-info__tel">
+						<div class="tel"><a href="tel:+74959264317">+7(4959)26-43-17</a></div>
+					</div>
+					<div class="menu-info__comm">
+						<div class="comm"><a href="#comm" class="comm-btn" data-toggle="modal"
+								data-target=".bd-example-modal-lg">Обратная связь</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+    <div class="menu-mobile">
+    	<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="logo">
+						<a href="index.html" class="logo__a">
+							<img src="img/icon/logo.png" alt="logo">
+						</a>
+					</div>
+					<ul class="menu__list">
+						<li><a href="../o_kompanii/o_kompanii.html">компания</a></li>
+						<li><a href="../project/project.html">проекты</a></li>
+						<li><a href="../customers/customers.html">заказчики</a></li>
+						<li><a href="../kontakty/kontakty.html">контакты</a></li>
+					</ul>
+					<div class="menu_burger">
+						<a href="" class="menu_burger__a">
+							<div class="menu_burger__a-span"><span></span></div>
+							<p class="menu_burger-title">Меню</p>
+						</a>
+						<nav class="menu_burger__nav">
+							<a href="" class="menu_burger__nav-link">Ресурсы</a>
+							<a href="" class="menu_burger__nav-link">Деятельность</a>
+							<a href="" class="menu_burger__nav-link">Проекты</a>
+							<a href="" class="menu_burger__nav-link">Клиенты</a>
+							<a href="" class="menu_burger__nav-link">Лицензии</a>
+						</nav>
+					</div>
+					<div class="menu-info__tel">
+						<div class="tel"><a href="tel:+74959264317">+7(4959)26-43-17</a></div>
+					</div>
+					<div class="menu-info__comm">
+						<div class="comm"><a href="#comm" class="comm-btn" data-toggle="modal"
+								data-target=".bd-example-modal-lg">Обратная связь</a></div>
+					</div>
+				</div>    		
+    	</div>
+    </div>
+	</header>
+
+	<section class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Обратная связь</h4>
+					<button class="close" data-dismiss="modal">x</button>
+				</div>
+
+				<div class="modal-body">
+					<div class="modal-forma">
+						<form action="URL" class="post">
+							<div class="modal-forma__strok modal_input1">
+								<input type="text" id="name-modal" name="name" class="js-material-input" required>
+								<div class="modal-forma__label-box">
+									<label for="name-modal">имя</label>
+								</div>
+				      </div>
+
+							<div class="modal-forma__strok modal_input2">
+								<input type="tel" id="modal-phone" name="tel" required>
+								<div class="modal-forma__label-box">
+									<label for="modal-phone">телефон</label>
+								</div>
+							</div>
+
+							<div class="modal-forma__strok modal_input3">
+								<input type="email" id="mail-modal" name="email">
+								<div class="modal-forma__label-box" required>
+									<label for="mail-modal">E-mail</label>
+								</div>
+							</div>
+
+							<div class="modal-forma__strok modal_input4">
+								<input type="text" id="sms-modal" name="sms">
+
+								<div class="modal-forma__label-box sms-box-modal">
+									<label for="sms-modal">сообщение</label>
+								</div>
+							</div>
+									<div class="footer-forma__recaptha">
+										<div class="g-recaptcha" data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX">
+										</div>
+										<!-- элемент для вывода ошибок -->
+										<div class="text-danger" id="recaptchaError"></div>
+									</div>
+									
+									<div class="footer-forma_inp">
+										<input class="footer-forma_input  mod-btn" type="submit" value="Отправить">
+									</div>
+									<div class="form-check mod-check">
+										<input class="form-check-input " type="checkbox" value="" id="defaultCheck1" checked>
+										<label class="form-check-label" for="defaultCheck1">
+											<div class="form-check_svg">
+												<svg xmlns="http://www.w3.org/2000/svg" x="10px" y="0px" width="15" height="15" viewBox="0 0 226 226"
+													style=" fill:#000000;">
+													<g transform="">
+														<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+															stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+															font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+															<path d="M0,226v-226h226v226z" fill="none"></path>
+															<g fill="#000000">
+																<path
+																	d="M193.795,38.985c-0.14125,0.03531 -0.2825,0.08828 -0.42375,0.14125c-1.18297,0.30016 -2.20703,1.05937 -2.825,2.11875l-92.3775,143.2275l-63.5625,-57.3475c-1.11234,-1.4125 -2.96625,-2.03047 -4.71422,-1.57141c-1.74797,0.45906 -3.03688,1.92453 -3.30172,3.70781c-0.26484,1.78328 0.54734,3.54891 2.08344,4.50234l67.37625,61.02c0.98875,0.86516 2.31297,1.25359 3.61953,1.05938c1.30656,-0.19422 2.45422,-0.93578 3.16047,-2.04812l95.34375,-147.7475c1.04172,-1.48312 1.09469,-3.44297 0.14125,-4.97906c-0.95344,-1.53609 -2.73672,-2.34828 -4.52,-2.08344z">
+																</path>
+															</g>
+															<path d="M0,226v-226h226v226z" fill="none"></path>
+															<path d="M4.52,221.48v-216.96h216.96v216.96z" fill="none"></path>
+															<path
+																d="M113,226c-62.40818,0 -113,-50.59182 -113,-113v0c0,-62.40818 50.59182,-113 113,-113v0c62.40818,0 113,50.59182 113,113v0c0,62.40818 -50.59182,113 -113,113z"
+																fill="none"></path>
+															<path
+																d="M113,221.48c-59.91185,0 -108.48,-48.56815 -108.48,-108.48v0c0,-59.91185 48.56815,-108.48 108.48,-108.48h0c59.91185,0 108.48,48.56815 108.48,108.48v0c0,59.91185 -48.56815,108.48 -108.48,108.48z"
+																fill="none"></path>
+															<path d="" fill="none"></path>
+															<path d="" fill="none"></path>
+														</g>
+													</g>
+												</svg>
+											</div>
+											Я согласен(на) с <a href="#" class="politika" target="_blank"> обработкой персональных данных и
+												политикой
+												конфиденциальности</a><sup>*</sup>
+										</label>
+									</div>
+						
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="main-slider_block">
+		<div class="layer layerbg" data-speed="5">	
+		<div class="layer layer1" data-speed="20"></div>
+		<div class="layer layer2" data-speed="50"></div>
+	
+		<div class=" main-slider-big">
+			<div class="container-md container-fluid container-main">
+			<div class="row align-items-center no-gutters">
+				<div class="col-12 col-sm-4">
+					<div class="main-slider main-sl1">
+						<a href="../Automation_systems/automation_systems.html">
+							<img src="img/main-slider/main-sl1.jpg" alt="">
+							<span class="title wow fadeInDown" data-wow-delay="0.1s">Строй</span>
+							<span class="title-2 wow fadeInUp" data-wow-delay="0.1s">Деятельность</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4">
+					<div class="main-slider main-sl2">
+						<a href="../project/project.html">
+							<img src="img/main-slider/slider-nav-2.jpg" alt="">
+							<span class="title wow fadeInDown" data-wow-delay="0.3s">Энерго</span>
+							<span class="title-2 wow fadeInUp" data-wow-delay="0.3s">Проекты</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4">
+					<div class="main-slider main-sl3">
+						<a href="../o_kompanii/o_kompanii.html">
+							<img src="img/main-slider/main-sl3.jpg" alt="">
+							<span class="title wow fadeInDown" data-wow-delay="0.6s">Ком</span>
+							<span class="title-2 wow fadeInUp" data-wow-delay="0.6s">О компании</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="main-info">
+		<div class="container">
+			<div class="row  align-items-center">
+				<div class="col-lg-7 col-md-12 order-lg-1 order-last">
+					<div class="main-info__info">
+						<div class="main-info__info1">
+							<h1 class="main-info__info-title">О компании</h1>
+							<span class="main-info__info-text">
+								"Строительная энергетическая компания" - активно
+								развивающаяся инжиниринговая компания, специализирующаяся
+								на оказании полного спектра услуг технологического и
+								строительного инжиниринга на объектах энергетического
+								комплекса Россиийской Федерации. Компания основана в 2008 году.</span>
+							<div class="main-info__info-input">
+								<a href="../o_kompanii/o_kompanii.html">Подробнее</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-12 offset-lg-1 order-lg-2 order-first">
+					<div class="main-info__okom">
+						<span class="main-info__okom-text1">100+</span><br>
+						<span class="main-info__okom-text2">реализованных<br>проектов</span>
+						<div class="main-info__okom-radio">
+							<input type="radio" id="btn-1" name="text">
+							<input type="radio" id="btn-2" name="text" checked>
+							<input type="radio" id="btn-3" name="text">
+							<input type="radio" id="btn-4" name="text">
+							<input type="radio" id="btn-5" name="text">
+							<input type="radio" id="btn-6" name="text">
+						</div>
+						<div class="main-info__okom-nameradio">
+							<label for="btn-1"></label>
+							<label for="btn-2"></label>
+							<label for="btn-3"></label>
+							<label for="btn-4"></label>
+							<label for="btn-5"></label>
+							<label for="btn-6"></label>
+						</div>
+
+						<!--  ProgressBar -->
+
+						<!-- <svg class="progress-ring" width="80" height="80">  
+							<circle class="progress-ring__circle" stroke="#333" stroke-width="2" cx="40" cy="40" r="36" fill="transparent" />
+						</svg> -->
+
+					</div>
+				</div>
+				<div class="col-lg-1 order-lg-3"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="lactivity">
+		<div class="container-fluid container-kards">
+			<h2 class="lactivity__title">направления деятельности</h2>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="lactivity__kard-1 kards">
+						<a href="../Automation_systems/automation_systems.html" class="item">
+							<div class="lactivity__kard-1-info info_lac">
+								<div class="kards-ico"><img src="img/lactivity/kard-before-1.png" alt="Вышка"  class="kards-img">
+								<img src="../Главная/img/lactivity/hover2.svg" alt="Вышка" class="kards-img-hover"></div>
+								<p class="lactivity_p">Системы автоматизации и учета энергоресурсов</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="lactivity__kard-2 kards">
+						<a href="../energy_facilities/energy_facilities.html" class="item">
+							<div class="lactivity__kard-2-info info_lac">
+								<div class="kards-ico">
+									<img src="img/lactivity/kard-before-2.png" alt="Проектирование" class="kards-img">
+								  <img src="../Главная/img/lactivity/0390465a86b67eb08edf651345e7b81a.svg" alt="Проектирование" class="kards-img-hover">
+								</div>
+								<p class="lactivity_p">Строительство и реконструкция объектов энергетического комплекса
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="lactivity__kard-3 kards">
+						<a href="../supply/supply.html" class="item">
+							<div class="lactivity__kard-3-info info_lac">
+							<div class="kards-ico"><img src="img/lactivity/kard-before-3.png" alt="Строительство"  class="kards-img">
+							<img src="../Главная/img/lactivity/hover3.svg" alt="Строительство" class="kards-img-hover"></div>	
+								<p class="lactivity_p">Поставка оборудования для объектов энергетического комплекса</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="lactivity__kard-4 kards">
+						<a href="../equipment_manufacturing/equipment_manufacturing.html" class="item">
+							<div class="lactivity__kard-4-info info_lac">
+								<div class="kards-ico"><img src="img/lactivity/kard-before-4.png" alt="Оптимизация"  class="kards-img">
+								<img src="../Главная/img/lactivity/hover4.svg" alt="Оптимизация" class="kards-img-hover"></div>
+								<p class="lactivity_p">Производство оборудования</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="quote">
+		<div class="container">
+			<img class="quote__image" src="img/icon/quote__image.png" alt="цитата">
+			<img class="quote__image" src="img/icon/quote__image.png" alt="цитата">
+			<br>
+			<span class="quote__text">"Строительная энергетическая компания" осуществляет полный цикл работ, связанных с
+				проектированием, строительством, поставкой, автоматизацией, вводом в эксплуатацию и дальнейшим обслуживанием
+				объектов и оборудования энергетического комплекса, промышленных предприятий, жилого фонда и других объектов
+				на
+				территории Российской Федерации.</span>
+		</div>
+	</div>
+
+	<section class="organization">
+		<div class="container">
+			<div class="organization__main wow zoomIn" data-wow-delay="0.1s" data-wow-duration="1s">
+				<div class="organization__main2 wow zoomIn" data-wow-delay="0.2s" data-wow-duration="1s">
+					<span class="organization__main2-name wow zoomIn" data-wow-delay="0.3s" data-wow-duration="0.5s">Организация и
+						проведение строительных и ремонтных работ</span>
+				</div>
+
+				<div class="organization__organization1 wow zoomIn" data-wow-delay="1s" data-wow-duration="2s"">
+					<div class="organization1_linear">
+						<svg class="linear">
+							<line x1="90px" y1="45px" x2="200px" y2="45px" stroke="#124e91" stroke-width="1"></line>
+						</svg>
+					</div>
+					<div class="organization1_title">
+						<p>Техническое сопровождение, авторский надзор</p>
+					</div>
+				</div>
+        <!--  <p>Текущая прокрутка = <b id="showScroll">0px</b></p> -->
+				<div class="organization__organization2 wow zoomIn" data-wow-delay="1.3s" data-wow-duration="2s">
+					<div class="organization2_linear">
+						<svg class="linear organization2_linear_svg">
+							<line x1="30px" y1="45px" x2="295px" y2="45px" stroke="#124e91" stroke-width="1"></line>
+							<line x1="7px" y1="70px" x2="30px" y2="45px" stroke="#124e91" stroke-width="1.3"></line>
+						</svg>
+					</div>
+					<div class="organization2_title">
+						<p>Технико-экономические обоснования</p>
+					</div>
+				</div>
+
+				<div class="organization__organization3 wow zoomIn" data-wow-delay="1.6s" data-wow-duration="2s">
+					<div class="organization3_linear">
+						<svg class="organization3_linear_svg">
+							<line x1="258px" y1="45px" x2="150px" y2="45px" stroke="#124e91" stroke-width="1"></line>
+						</svg>
+					</div>
+					<div class="organization3_title">
+						<p>Инжиниринговый аудит инфраструктур объектов и предприятий</p>
+					</div>
+				</div>
+
+				<div class="organization__organization4 wow zoomIn" data-wow-delay="1.9s" data-wow-duration="2s">
+					<div class="organization4_linear">
+						<svg class="organization4_linear_svg">
+							<line x1="258px" y1="45px" x2="205px" y2="45px" stroke="#124e91" stroke-width="1"></line>
+						</svg>
+					</div>
+					<div class="organization4_title">
+						<p>Проектирование</p>
+					</div>
+				</div>
+
+				<div class="organization__organization5 wow zoomIn" data-wow-delay="2.2s" data-wow-duration="2s">
+					<div class="organization5_linear">
+						<svg class="organization5_linear_svg">
+							<line x1="260px" y1="55px" x2="150px" y2="55px" stroke="#124e91" stroke-width="1"></line>
+						</svg>
+					</div>
+					<div class="organization5_title">
+						<p>Автоматизация</p>
+					</div>
+				</div>
+
+				<div class="organization__organization6 wow zoomIn" data-wow-delay="2.5s" data-wow-duration="2s">
+					<div>
+						<svg class="organization6_linear_svg">
+							<line x1="30px" y1="115px" x2="290px" y2="115px" stroke="#124e91" stroke-width="1"></line>
+							<line x1="-20px" y1="73px" x2="30px" y2="115px" stroke="#124e91" stroke-width="1.3"></line>
+						</svg>
+					</div>
+					<div class="organization6_title">
+						<p>Ввод объектов в эксплуатацию</p>
+					</div>
+				</div>
+
+				<div class="organization__organization7 wow zoomIn" data-wow-delay="2.8s" data-wow-duration="2s">
+					<div class="organization7_linear">
+						<svg class="linear">
+							<line x1="90px" y1="45px" x2="200px" y2="45px" stroke="#124e91" stroke-width="1"></line>
+						</svg>
+					</div>
+					<div class="organization7_title">
+						<p>Гарантийное и сервисное обслуживание</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="organization-mobile">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization7.png" alt="">
+						<div class="text">Техническое сопровождение, авторский надзор</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization6.png" alt="">
+						<div class="text">Технико-экономические обоснования</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization5.png" alt="">
+						<div class="text">Инжиниринговый аудит инфраструктур объектов и предприятий</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization4.png" alt="">
+						<div class="text">Проектирование</div>
+					</div>
+				</div>
+			</div>
+			<div class="row  justify-content-around">
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization3.png" alt="">
+						<div class="text">Автоматизация</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization2.png" alt="">
+						<div class="text">Ввод объектов в эксплуатацию</div>
+					</div>
+				</div>
+				<div class="col-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization1.png" alt="">
+						<div class="text">Гарантийное и сервисное обслуживание</div>
+					</div>
+				</div>
+		</div>
+	</section>
+	<section class="organization-mobile-sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization7.png" alt="">
+						<div class="text">Техническое сопровождение, авторский надзор</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization6.png" alt="">
+						<div class="text">Технико-экономические обоснования</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization5.png" alt="">
+						<div class="text">Инжиниринговый аудит инфраструктур объектов и предприятий</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization4.png" alt="">
+						<div class="text">Проектирование</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization3.png" alt="">
+						<div class="text">Автоматизация</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization2.png" alt="">
+						<div class="text">Ввод объектов в эксплуатацию</div>
+					</div>
+				</div>
+				<div class="col-3 col-sm-4 col-12">
+					<div class="item-organization-mobile">
+						<img src="img/organization/organization1.png" alt="">
+						<div class="text">Гарантийное и сервисное обслуживание</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="maps">
+		<div class="container__maps">
+
+			<div class="maps__info wow fadeInLeftBig" data-wow-delay="0.0s">
+				
+				<div class="maps__info-box">
+			  	<h4 class="maps__info_title">проекты</h4>
+			  	<span class="maps__info_text">География проектов — <br> Москва и Московская область,<br> Санкт-Петербург,
+					Екатеринбург<br> и другие регионы России.
+			  	</span>
+			  	
+				</div>
+			</div>
+			<div class="maps__map wow fadeInRightBig" data-wow-delay="0.1s">
+				<div id="maps">
+					<script async
+						src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A97fb1089af5cbafab50995cb6ebb8caf118c05294b94ead655a66fcb8a2e5e60&amp;width=100%25&amp;height=535&amp;lang=ru_RU&amp;scroll=false">
+					</script>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="clientage">
+		<div class="container">
+			<div class="clientage__block">
+				<h3 class="clientage__block_name">Компанией реализовано более 100 проектов АСУ, 50 ПРОЕКТОВ</h3>
+				<span class="clientage__block_text">Клиенты и партнеры — моэск, мрск, интер рао, оборонэнерго энергетического
+					комплекса, промышленные предприятия федерального значения</span>
+				<div class="clientage__block_slader">
+					<div class="slider__wrapper">
+						<div class="slider__item">
+							<a href="http://www.rosseti.ru/" target="_blank" class="slider_item_a">
+								<div class="slider_item_img">
+									<img src="img/clientage/rosseti.png" alt="rosseti">
+								</div>
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="http://moselectro.ru/" target="_blank" class="slider_item_a">
+								<div class="slider_item_img">
+							  	<img src="img/clientage/moselectro.png"	alt="moselectro">
+								</div>
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="https://www.rosatom.ru/" target="_blank" class="slider_item_a">
+								<div class="slider_item_img">
+									<img src="img/clientage/rosatom.png" alt="rosatom">
+								</div>
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="https://www.moek.ru/" target="_blank" class="slider_item_a">
+								<div class="slider_item_img">
+								  <img src="img/clientage/moek.png" alt="moek">
+						   	</div>
+							</a>
+						</div>
+						<div class="slider__item">
+							<a href="https://www.mosenergosbyt.ru/" target="_blank" class="slider_item_a">
+								<div class="slider_item_img">
+								  <img src="img/clientage/mos.png" alt="mos">
+								</div>
+							</a>
+						</div>
+							<div class="slider__item">
+								<a href="https://pesc.ru/" target="_blank" class="slider_item_a">
+									<div class="slider_item_img">
+								   	<img src="img/clientage/psk.png" alt="psk">
+									</div>
+								</a>
+						</div>					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="before_footer">
+		<div class="container">
+			<ul class="before_footer__menu">
+				<li><a href="../o_kompanii/o_kompanii.html">О компании</a></li>
+				<li><a href="../news/news.html">Новости</a></li>
+				<li><a href="../customers/customers.html">Заказчики</a></li>
+				<li><a href="../reviews/reviews.html">Отзывы</a></li>
+				<li><a href="../management/management.html">Менеджмент</a></li>
+				<li><a href="../Automation_systems/automation_systems.html">Деятельность</a></li>
+				<li><a href="../project/project.html">Проекты</a></li>
+				<li><a href="../licenses/licenses.html">Лицензии</a></li>
+				<li><a href="../kontakty/kontakty.html">Контакты</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row  align-items-center">
+				<div class="col-12 col-xl-6">
+					<div class="footer-inform">
+						<div class="footer-inform__info">
+							<p class="z1">ООО «СтройЭнергоКом»</p>
+							<div class="footer-inform__info_text">
+								<svg class="info_text-icon">
+									<svg id="icon-address" viewBox="0 0 54 64">
+										<title>address</title>
+										<path
+											d="M26.634 63.205c-0.795 0-1.59-0.398-1.988-0.795-2.385-2.385-24.248-21.863-24.248-35.776 0-14.311 11.925-26.236 26.236-26.236s26.236 11.925 26.236 26.236c0 13.913-21.863 33.391-24.248 35.776-0.398 0.398-1.193 0.795-1.988 0.795zM26.634 6.758c-11.13 0-19.876 9.143-19.876 19.876 0 8.348 12.721 22.261 19.876 29.019 7.155-6.758 19.876-20.671 19.876-29.019 0.398-11.13-8.745-19.876-19.876-19.876z">
+										</path>
+										<path
+											d="M31.801 25.838c0 2.854-2.314 5.168-5.168 5.168s-5.168-2.314-5.168-5.168c0-2.854 2.314-5.168 5.168-5.168s5.168 2.314 5.168 5.168z">
+										</path>
+									</svg>
+								</svg>
+								<span class="info_text-text">
+									Россия, 142800, Московская область,<br> г. Ступино, проспект Победы 71, офис 3203
+								</span>
+							</div>
+							<div class="footer-inform__info_text">
+								<svg class="info_text-icon">
+									<svg id="icon-mail" viewBox="0 0 83 64">
+										<title>mail</title>
+										<path
+											d="M78.933 64h-74.667c-2.133 0-4.267-2.133-4.267-4.267v-55.467c0-2.133 2.133-4.267 4.267-4.267h74.667c2.133 0 4.267 2.133 4.267 4.267v56c0 2.133-1.6 3.733-4.267 3.733zM8.533 55.467h66.667v-46.933h-66.667v46.933z">
+										</path>
+										<path
+											d="M41.6 41.6c-1.067 0-2.133-0.533-2.667-1.067l-34.133-29.333c-1.6-1.6-1.6-4.267 0-5.867s4.267-2.133 5.867-0.533l30.933 26.667 30.933-26.667c1.6-1.6 4.267-1.067 5.867 0.533s1.067 4.267-0.533 5.867l-34.133 29.333c0 0.533-1.067 1.067-2.133 1.067z">
+										</path>
+									</svg>
+								</svg>
+								<span class="info_text-text">
+									info@stroyenergokom.ru
+								</span>
+							</div>
+							<div class="footer-inform__info_tel"><a href="tel:+74959264317">+7(4959)26-43-17</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-xl-6">
+					<div class="footer-forma">
+						<div id="comm" class="footer-forma-title">Обратная связь</div>
+
+						<form action="URL" class="post">
+							<div class="strok js-material-input1">
+								<input type="text" id="name" name="name" class="js1" required>
+								<div class="label-box">
+									<label for="name">имя</label>
+								</div>
+							</div>
+
+							<div class="strok js-material-input2">
+								<input type="tel" id="phone" name="tel" class="js2" required>
+								<div class="label-box">
+									<label for="phone">телефон</label>
+								</div>
+							</div>
+
+							<div class="strok js-material-input3">
+								<input type="email" id="mail" name="email" class="js" required>
+								<div class="label-box">
+									<label for="mail">E-mail</label>
+								</div>
+							</div>
+
+							<div class="strok js-material-input4">
+								<input type="text" id="sms" name="sms">
+
+								<div class="label-box box4">
+									<label for="sms">сообщение</label>
+								</div>
+							</div>
+							<div class="footer-box-btn">
+								<div class="footer-forma__recaptha">
+								<div class="g-recaptcha" data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX">
+								</div>
+								<!-- элемент для вывода ошибок -->
+								<div class="text-danger" id="recaptchaError"></div>
+							</div>
+
+							<div class="footer-forma_inp">
+								<input class="footer-forma_input" type="submit" value="Отправить">
+							</div>
+							</div>
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+								<label class="form-check-label" for="defaultCheck1">
+									<div class="form-check_svg">
+										<svg xmlns="http://www.w3.org/2000/svg" x="10px" y="0px" width="15" height="15"
+											viewBox="0 0 226 226" style=" fill:#000000;">
+											<g transform="">
+												<g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+													stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+													font-family="none" font-weight="none" font-size="none" text-anchor="none"
+													style="mix-blend-mode: normal">
+													<path d="M0,226v-226h226v226z" fill="none"></path>
+													<g fill="#ffffff">
+														<path
+															d="M193.795,38.985c-0.14125,0.03531 -0.2825,0.08828 -0.42375,0.14125c-1.18297,0.30016 -2.20703,1.05937 -2.825,2.11875l-92.3775,143.2275l-63.5625,-57.3475c-1.11234,-1.4125 -2.96625,-2.03047 -4.71422,-1.57141c-1.74797,0.45906 -3.03688,1.92453 -3.30172,3.70781c-0.26484,1.78328 0.54734,3.54891 2.08344,4.50234l67.37625,61.02c0.98875,0.86516 2.31297,1.25359 3.61953,1.05938c1.30656,-0.19422 2.45422,-0.93578 3.16047,-2.04812l95.34375,-147.7475c1.04172,-1.48312 1.09469,-3.44297 0.14125,-4.97906c-0.95344,-1.53609 -2.73672,-2.34828 -4.52,-2.08344z">
+														</path>
+													</g>
+													<path d="M0,226v-226h226v226z" fill="none"></path>
+													<path d="M4.52,221.48v-216.96h216.96v216.96z" fill="none"></path>
+													<path
+														d="M113,226c-62.40818,0 -113,-50.59182 -113,-113v0c0,-62.40818 50.59182,-113 113,-113v0c62.40818,0 113,50.59182 113,113v0c0,62.40818 -50.59182,113 -113,113z"
+														fill="none"></path>
+													<path
+														d="M113,221.48c-59.91185,0 -108.48,-48.56815 -108.48,-108.48v0c0,-59.91185 48.56815,-108.48 108.48,-108.48h0c59.91185,0 108.48,48.56815 108.48,108.48v0c0,59.91185 -48.56815,108.48 -108.48,108.48z"
+														fill="none"></path>
+													<path d="" fill="none"></path>
+													<path d="" fill="none"></path>
+												</g>
+											</g>
+										</svg>
+									</div>
+									Я согласен(на) с <a href="../politika_konfidencialnosti/politika_konfidencialnosti.html" class="politika" target="_blank"> обработкой персональных данных и	политикой	конфиденциальности</a><sup>*</sup>
+								</label>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</form>
+		</div>
+	</footer>
+
+	<section class="footer-after">
+		<div class="container">
+			<div class="footer-after--wrapper">
+			   <div class="footer-after_1">© 2009-2017</div>
+			   <div class="footer-after_2">
+			   	<a href="../sitemap/sitemap.html">Карта сайта</a>
+			   </div>
+			   <div class="footer-after_3">СОЗДАНО<br>2020
+			   	<!-- <div class="footer-after_3_img">
+					<a href="https://8-planet.ru/" target="_blank">
+						<svg id="icon-devby" viewBox="0 0 71 64">
+              <path d="M53.971 18.526c-0.044 10.162-8.291 18.383-18.459 18.383-4.176 0-8.028-1.387-11.121-3.725l0.046 0.034c0.455 0.080 0.978 0.125 1.512 0.125 1.131 0 2.215-0.204 3.215-0.578l-0.064 0.021c1.882 0.86 4.082 1.362 6.4 1.362 8.681 0 15.718-7.037 15.718-15.718 0-1.191-0.132-2.35-0.383-3.465l0.020 0.105c-0.566 1.033-1.332 1.89-2.252 2.545l-0.023 0.016c-3.241 2.268-6.816 2.513-10.461 2.355l0.216-0.73c0.186-0.648 0.374-1.316 0.579-1.996 2.921 0.069 5.723-0.229 8.091-1.888 1.821-1.275 2.722-4.010 1.378-5.931s-4.224-2.007-6.049-0.732c-3.241 2.277-4.375 6.196-5.501 10.118-1.262 4.397-2.523 8.793-6.561 11.621-1.204 0.84-2.697 1.342-4.308 1.342-0.356 0-0.706-0.024-1.049-0.072l0.040 0.005c-5.682-0.765-7.918-8.486-7.901-13.341 0.045-10.161 8.292-18.38 18.459-18.38 4.172 0 8.021 1.384 11.113 3.719l-0.047-0.034c-0.462-0.083-0.994-0.13-1.537-0.13-1.123 0-2.199 0.202-3.193 0.572l0.063-0.021c-1.88-0.858-4.077-1.358-6.391-1.358-8.681 0-15.718 7.037-15.718 15.717 0 1.198 0.134 2.364 0.388 3.486l-0.020-0.105c0.564-1.036 1.33-1.895 2.25-2.551l0.023-0.015c3.241-2.268 6.816-2.513 10.461-2.355l-0.216 0.73c-0.184 0.648-0.374 1.316-0.579 1.994-2.921-0.069-5.723 0.229-8.091 1.888-1.813 1.27-2.716 4.018-1.378 5.931s4.23 2.003 6.049 0.732c3.241-2.275 4.375-6.196 5.501-10.115 1.262-4.399 2.521-8.793 6.561-11.623 1.203-0.84 2.696-1.342 4.306-1.342 0.356 0 0.706 0.024 1.048 0.072l-0.040-0.005c5.68 0.765 7.92 8.493 7.901 13.345z"></path>
+              <path d="M2.467 48.557h4.273c0.018-0.001 0.038-0.002 0.059-0.002 0.176 0 0.34 0.050 0.479 0.136l-0.004-0.002c0.117 0.104 0.19 0.255 0.19 0.423 0 0.024-0.001 0.047-0.004 0.070l0-0.003q0 0.57-0.717 0.57h-4.276v-1.195zM0 45.307v5.097c0 0.776 0.322 1.175 1.268 1.175h6.192q1.324 0 1.895-0.475t0.583-1.616q0-1.32-1.111-1.785c0.251-0.117 0.452-0.307 0.58-0.542l0.003-0.007c0.149-0.269 0.237-0.589 0.237-0.929 0-0.023-0-0.045-0.001-0.068l0 0.003q0-1.342-0.784-1.817-0.527-0.318-1.683-0.318h-5.883c-0.847 0-1.257 0.352-1.296 1.283zM2.467 45.852h4.375c0.015-0.001 0.033-0.002 0.051-0.002 0.152 0 0.293 0.044 0.412 0.12l-0.003-0.002c0.099 0.099 0.16 0.237 0.16 0.388s-0.061 0.288-0.16 0.388l0-0c-0.115 0.077-0.257 0.122-0.409 0.122-0.016 0-0.031-0.001-0.047-0.001l0.002 0h-4.381v-1.015z"></path>
+              <path d="M11.794 47.747c0.017-1.815 0.408-2.558 0.989-3.152 0.961-0.983 2.936-0.929 4.258-0.929 1.361 0 3.372-0.086 4.366 0.929 0.588 0.601 0.981 1.35 0.992 3.2v0c-0.017 1.815-0.408 2.558-0.989 3.152-0.953 0.974-2.992 0.968-4.321 0.968s-3.36 0-4.321-0.968c-0.588-0.601-0.981-1.35-0.992-3.2zM19.857 47.747c0-0.432 0-0.957-0.248-1.309-0.382-0.553-1.19-0.588-2.528-0.603s-2.117 0.054-2.498 0.603c-0.253 0.365-0.251 0.918-0.246 1.357v0c0 0.432 0 0.957 0.248 1.309 0.38 0.549 1.177 0.611 2.498 0.648 1.337-0.037 2.145-0.095 2.528-0.648 0.253-0.365 0.251-0.918 0.246-1.357z"></path>
+              <path d="M30.517 51.83c0.619-0.036 1.199-0.155 1.745-0.346l-0.044 0.014c0.879-0.294 1.385-0.735 1.698-1.512 0.119-0.33 0.188-0.711 0.188-1.107 0-0.105-0.005-0.208-0.014-0.31l0.001 0.013h-2.48c-0.071 1.169-1.616 1.108-2.554 1.113s-2.16-0.030-2.288-1.16c-0.023-0.219-0.037-0.472-0.037-0.729 0-0.013 0-0.026 0-0.040v0.002c-0-0.011-0-0.024-0-0.038 0-0.257 0.013-0.511 0.039-0.761l-0.003 0.031c0.127-1.128 1.322-1.164 2.288-1.16s2.485-0.056 2.554 1.113h2.478c0.008-0.089 0.013-0.192 0.013-0.297 0-0.397-0.069-0.778-0.196-1.131l0.007 0.023c-0.313-0.767-0.819-1.208-1.698-1.512-0.501-0.178-1.081-0.297-1.683-0.332l-0.017-0.001c-2.074-0.102-5.535-0.324-6.080 2.21-0.111 0.507-0.174 1.089-0.174 1.686 0 0.050 0 0.1 0.001 0.149l-0-0.007v0.037c-0.001 0.042-0.001 0.092-0.001 0.142 0 0.597 0.063 1.179 0.184 1.74l-0.010-0.054c0.547 2.534 4.006 2.312 6.080 2.21z"></path>
+              <path d="M47.349 44.024h4.206l1.884 4.204c0.38 0.847 0.149 0.687 0.547 0.017l1.944-4.219h3.993v7.544h-2.351v-5.939l-2.178 4.492c-0.57 1.184-0.557 1.445-1.728 1.445-0.847-0.017-1.024-0.266-1.553-1.281l-2.422-4.651v5.933h-2.342v-7.544z"></path>
+              <path d="M62.593 51.579v-7.562h2.467v1.849h3.355c1.998 0 2.841 0.704 2.809 2.852s-0.882 2.852-2.943 2.852zM65.031 47.829l0.037 1.795h3.373c0.575 0 0.78-0.302 0.767-0.899s-0.264-0.899-0.836-0.899z"></path>
+              <path d="M36.342 50.236v-4.827c0-1.080 0.538-1.383 1.365-1.383h6.965v1.828h-5.864v1.046h5.583v1.817h-5.583v1.035h5.864v1.828h-7.013c-0.894 0-1.318-0.421-1.318-1.344z"></path>
+              <path d="M2.16 56.361h5.926c1.53 0.050 2.143 1.227 2.16 2.521v5.023h-2.469v-4.356c0-1.041-0.311-1.244-1.218-1.244h-2.873c-0.907 0-1.219 0.205-1.219 1.244v4.356h-2.467v-5.023c0.017-1.296 0.631-2.472 2.16-2.521z"></path>
+              <path d="M30.463 56.361c1.545 0 1.854 0.097 2.703 1.48l3.204 6.065h-2.701l-0.754-1.251h-4.889l-0.763 1.257h-2.701l3.204-6.065c0.864-1.391 1.169-1.48 2.707-1.48zM28.951 60.71l3.040-0.017c-1.672-3.325-1.253-3.526-3.040 0.017z"></path>
+              <path d="M38.284 56.345h2.467v2.642h4.483v-2.642h2.467v7.544h-2.467v-2.947h-4.483v2.947h-2.467v-7.544z"></path>
+              <path d="M61.684 58.303v-1.955h9.545v1.955h-3.532v5.6h-2.467v-5.6h-3.545z"></path>
+              <path d="M22.657 56.389v7.516h-2.517v-5.557h-3.148c-0.008-0-0.017-0.001-0.026-0.001-0.278 0-0.503 0.225-0.503 0.503 0 0 0 0.001 0 0.001v-0l-0.281 3.487c-0.089 1.102-1.015 1.661-2.055 1.661-0.011 0-0.025 0-0.038 0-0.544 0-1.078-0.039-1.6-0.115l0.059 0.007v-1.728h0.631c0.013 0.001 0.027 0.002 0.042 0.002 0.278 0 0.508-0.211 0.537-0.481l0-0.002 0.367-4.189c0.047-0.713 0.447-1.115 1.296-1.115z"></path>
+              <path d="M50.467 62.559v-4.827c0-1.080 0.538-1.383 1.365-1.383h6.965v1.828h-5.866v1.046h5.583v1.817h-5.583v1.035h5.864v1.828h-7.013c-0.894 0-1.318-0.421-1.318-1.344z"></path>
+            </svg>
+					</a>
+			   	</div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+  
+
+<!--   <script>
+  	$(function () {
+			$(window).resize(function () {
+				var bodyWidth = $('body').width();
+				if (bodyWidth < 768) {
+					$(".organization-mobile .row").removeClass('row'),
+					$(".organization-mobile .row").removeClass('justify-content-around')
+					}
+				else $(".organization-mobile .row").addClass('justify-content-around')
+					};
+			);
+		});
+  </script> -->
+
+  <script> //Слайдер
+			$(document).ready(function () {
+				$('.slider__wrapper').slick({
+					infinite: true,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					arrows: true,
+					prevArrow: "<button class='slider__control slider__control_left'></button>",
+					nextArrow: "<button class='slider__control slider__control_right'></button>",
+					responsive: [{
+            breakpoint: 1025,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1
+          } },
+					    {
+            breakpoint: 992,
+              settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+          } },
+					    {
+            breakpoint: 768,
+              settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+          } }]
+         });
+       });
+	</script>
+  
+<!-- <script>
+     function isVisible(elem) {
+
+           let coords = elem.getBoundingClientRect();
+
+          let windowHeight = document.documentElement.clientHeight;
+
+           // верхний край элемента виден?
+             let topVisible = coords.top > 0 && coords.top < windowHeight;
+
+           // нижний край элемента виден?
+           let bottomVisible = coords.bottom < windowHeight && coords.bottom > 0;
+
+           return bottomVisible;
+           }
+
+        function showVisible() {
+          for (let organizat of document.querySelectorAll('.organization')) {
+          let realSrc = organizat.dataset;
+          if (!realSrc) continue;
+
+          if (isVisible(organizat)) {
+
+          organizat = realSrc;
+
+        }
+      }
+      }
+
+              window.addEventListener('scroll', showVisible);
+              showVisible();
+</script> -->
+
+
+	<script>  //Прокручивающееся меню
+		$(function () {
+			$(window).scroll(function () {
+				var top = $(document).scrollTop();
+				if (top < 40) $(".menu").css({
+						top: '0',
+						position: 'relative'
+					}),
+					$('.menu .logo').css({
+						width: '261px',
+						transition: '0.4s',
+						marginRight: '20px'
+					}),
+					$('.menu-info__tel').css({
+						marginLeft: '35px'
+					});
+				else $(".menu").css({
+						top: '0',
+						position: 'fixed',
+						transition: '0.5s'
+					}),
+					$('.menu .logo').css({
+						width: '80px',
+						marginRight: '120px',
+						transition: '0.5s'
+					}),
+					$('.menu-info__tel').css({
+						marginLeft: '90px',
+						transition: '0.5s'
+					});
+			});
+		});
+	</script>
+	<script>  //Прокручивающееся меню-mobile
+		 $(function () {
+			$(window).scroll(function () {
+				var top = $(document).scrollTop();
+				if (top < 40) $(".menu-mobile").css({
+						top: '0px',
+						position: 'relative'
+					}),
+					$('.menu-mobile .logo').css({
+						width: '225px',
+						transition: '0.4s',
+						marginRight: '20px'
+					});
+				else $(".menu-mobile").css({
+						top: '0',
+						position: 'fixed',
+						transition: '0.5s'
+					}),
+					$('.menu-mobile .logo').css({
+						width: '60px',
+						marginRight: '40px',
+						transition: '0.5s'
+					});
+			});
+		 });
+	</script>
+
+	<script>  // Параллакс
+			function parallax(event) {
+				this.querySelectorAll('.layer').forEach(layer => {
+					let speed = layer.getAttribute('data-speed');
+					// console.log(layer.getAttribute('data-speed'));
+
+					layer.style.transform = `translateX(${event.clientX * speed / 1100}px)`;
+
+				});
+			};
+			document.addEventListener('mousemove', parallax);
+	</script>
+
+  <script>  //Кнопка в верхнем меню
+			$('.menu-top_list-btn').on('click', function () {
+					$('.submenu').toggleClass('submenu-active');
+					$('.menu-top_list-btn').toggleClass('menu-top_list-btn-active');
+				});
+	</script>
+
+	<script>  //Маска к телефонам
+		$(function () {
+			$("#phone").mask("+7(999) 999-99-99");
+			$("#modal-phone").mask("+7(999) 999-99-99");
+		});
+	</script>
+
+	<script>	//Чекбокс на обработку данных
+		$('.form-check-label').on('click', function () {
+			$('.form-check_svg').toggleClass('form-check-no');
+		});
+	</script>
+
+	<script>  //Бургер меню
+		$('.menu_burger__a').on('click', function (e) {
+			e.preventDefault();
+			$(this).toggleClass('menu_burger__a-active');
+			$('.menu_burger__nav').toggleClass('menu_burger__nav-active');
+		});
+	</script>
+
+	<script>  // Поиск
+		$('.form-control_ico').on('click', function () {
+			$(".form-control").addClass('form-inline_active');
+		});
+
+		$('.form-control').on('blur', function () {
+			$(this).removeClass('form-inline_active');
+		});
+	</script>
+
+	<script>	//Форма в футере
+		//   $('.js-material-input').each(function() {
+		//   if ($(this).find('input').val()) {
+		//     $(this).addClass('focus_input');
+		//   }
+		//   else {
+		//     $(this).removeClass('focus_input');
+		//   }
+		// });  
+
+	$('input#name').keyup(function () {
+		   	if ($(this).val()) {
+				$(".js-material-input1").addClass('active');
+			 } else {
+				$(".js-material-input1").removeClass('active');
+		  	};
+	  	});
+			$('input#phone').keyup(function () {
+			if ($(this).val()) {
+				$(".js-material-input2").addClass('active');
+			} else {
+				$(".js-material-input2").removeClass('active');
+			};
+		});
+				$('input#mail').keyup(function () {
+			if ($(this).val()) {
+				$(".js-material-input3").addClass('active');
+			} else {
+				$(".js-material-input3").removeClass('active');
+			};
+		});
+					$('input#sms').keyup(function () {
+			if ($(this).val()) {
+				$(".js-material-input4").addClass('active');
+			} else {
+				$(".js-material-input4").removeClass('active');
+			};
+		});
+	</script>
+
+	<script> //Форма (модалка)
+		$('input#name-modal').keyup(function () {
+			if ($(this).val()) {
+				$(".modal_input1").addClass('active');
+			} else {
+				$(".modal_input1").removeClass('active');
+			};
+		});
+			$('input#modal-phone').keyup(function () {
+			if ($(this).val()) {
+				$(".modal_input2").addClass('active');
+			} else {
+				$(".modal_input2").removeClass('active');
+			};
+		});
+				$('input#mail-modal').keyup(function () {
+			if ($(this).val()) {
+				$(".modal_input3").addClass('active');
+			} else {
+				$(".modal_input3").removeClass('active');
+			};
+		});
+					$('input#sms-modal').keyup(function () {
+			if ($(this).val()) {
+				$(".modal_input4").addClass('active');
+			} else {
+				$(".modal_input4").removeClass('active');
+			};
+		});
+	</script>
+
+<!-- 	<script>  //progress-bar    ?
+		const circle = document.querySelector('.progress-ring__circle');
+		const radius = circle.r.baseVal.value;
+    const circumference = 2 * Math.PI * radius;
+    const	start = 0;
+		const	end = 100,
+      
+       this.start = start;
+       this.end = end;
+
+    circle.style.strokeDasharray = `${circumference} ${circumference}`;
+    circle.style.strokeDashoffset = circumference;
+
+    function setProgress(percent) {
+    	const offset = circumference - percent / 100 * circumference;
+    	circle.style.strokeDashoffset = offset;
+    	this.animateBar(bar);
+    }
+    setProgress(70);
+
+    animateBar(bar) {
+      const animate = () => {
+      if (this.start < this.end) {
+    	this.start++;
+    	this.stateProgress(bar);
+    	requestAnimationFrame(animate)
+    }
+
+    };
+    requestAnimationFrame(animate);
+   }
+	</script>
+	<script>
+		const newBar = new ProgressBar({
+      start: 0,
+		});
+		newBar.init('.progress-ring__circle');
+	</script> -->
+
+ 	<!-- <script>
+    window.addEventListener('scroll', function() {
+    document.getElementById('showScroll').innerHTML = pageYOffset + 'px';
+    console.log(pageYOffset + 'px')
+    });
+	</script> -->
+
+<!-- 	<script>	//Recaptcha
+		// 1. Получить ответ гугл капчи
+		var captcha = grecaptcha.getResponse();
+
+		// 2. Если ответ пустой, то выводим сообщение о том, что пользователь не прошёл тест.
+		// Такую форму не будем отправлять на сервер.
+		if (!captcha.length) {
+			// Выводим сообщение об ошибке
+			$('#recaptchaError').text('* Вы не прошли проверку "Я не робот"');
+		} else {
+			// получаем элемент, содержащий капчу
+			$('#recaptchaError').text('');
+		}
+
+		// 3. Если форма валидна и длина капчи не равно пустой строке, то отправляем форму на сервер (AJAX)
+		if ((formValid) && (captcha.length)) {
+			
+			// добавить в formData значение 'g-recaptcha-response'=значение_recaptcha
+			formData.append('g-recaptcha-response', captcha);
+			
+		}
+
+		// 4. Если сервер вернул ответ error, то делаем следующее...
+		// Сбрасываем виджет reCaptcha
+		grecaptcha.reset();
+		// Если существует свойство msg у объекта $data, то...
+		if ($data.msg) {
+			// вывести её в элемент у которого id=recaptchaError
+			$('#recaptchaError').text($data.msg);
+		}
+	</script> -->
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script> 
+	
+</body>
+
+</html>
